@@ -1,0 +1,162 @@
+body {
+  background-color: white;
+  padding: 2rem;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 5rem;
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  margin-left: 14rem;
+  border-radius: 3px;
+}
+
+#status {
+  background-color: green;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  justify-content: end;
+  padding-right: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+nav {
+  background-color: lightgreen;
+  height: 3rem;
+  padding-right: 2rem;
+}
+
+nav > ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+nav > ul > li {
+  font-weight: 600;
+}
+
+nav > ul > li > a {
+  color: white;
+}
+
+#logo {
+  width: 40rem;
+  border-radius: 3px;
+}
+
+main {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#left-top {
+  padding: 1rem;
+  border: 5px solid green;
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+#left-top > .heading {
+  background-color: green;
+  padding: 5px;
+  color: white;
+}
+
+#left-top > .desc {
+  background-color: lightgreen;
+  padding: 5px;
+}
+
+#left-space {
+  height: 6.5rem;
+  background-color: lightgreen;
+  border-radius: 3px;
+}
+
+#couple-container {
+  padding: 1rem;
+  border: 5px solid green;
+  margin-left: 1rem;
+  border-radius: 3px;
+}
+
+#couple {
+  width: 50rem;
+  height: 28rem;
+  padding: 1rem;
+  border: 2px solid lightgreen;
+}
+
+#right-top {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 10rem;
+  margin-bottom: 12rem;
+}
+
+#right-top > a {
+  color: black;
+  font-weight: 600;
+}
+
+#right-space {
+  height: 6.5rem;
+  background-color: green;
+  width: 13rem;
+  border-radius: 3px;
+  margin-right: 10rem;
+}
+
+#btm-nav {
+  margin-left: 65rem;
+  margin-top: 1rem;
+}
+
+#btm-nav > a {
+  color: black;
+  font-weight: 600;
+}
+
+#terms {
+  margin: 10rem;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: green;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}

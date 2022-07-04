@@ -1,0 +1,35 @@
+body {
+  background-color: #d3e5f8;
+  display: grid;
+  place-items: center;
+}
+
+header {
+  margin-top: 5rem;
+}
+
+#logo {
+  border-radius: 50%;
+  border: 3px solid rgb(200, 196, 196);
+  padding: 1rem;
+  background-color: #81c0ff;
+}
+
+main {
+  display: flex;
+  gap: 5rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+#couple {
+  width: 20rem;
+}
+
+#left {
+  width: 12rem;
+}
+
+#right {
+  width: 12rem;
+}
